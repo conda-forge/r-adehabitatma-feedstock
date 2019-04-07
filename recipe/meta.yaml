@@ -1,4 +1,4 @@
-{% set version = '0.3.12' %}
+{% set version = "0.3.13" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/adehabitatMA_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/adehabitatMA/adehabitatMA_{{ version }}.tar.gz
-  sha256: ebaee51d019698340cc5ff5e44fbff027bd43cacd98ff2104a666867cd90b08e
+  sha256: 790c575fbb6e85e07e2c226b0be32f463c1198ae9eff03f6c2466c2cfa64e4be
 
 build:
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
