@@ -1,4 +1,4 @@
-{% set version = "0.3.13" %}
+{% set version = '0.3.13' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -52,16 +52,11 @@ about:
 
 extra:
   recipe-maintainers:
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
+    - conda-forge/r
 
 # Package: adehabitatMA
-# Version: 0.3.12
-# Date: 2017-11-28
+# Version: 0.3.13
+# Date: 2019-04-07
 # Depends: R (>= 2.10.0), sp, methods
 # Suggests: maptools, tkrplot, MASS
 # Imports: utils, graphics, grDevices, stats, filehash
@@ -71,6 +66,6 @@ extra:
 # Description: A collection of tools to deal with raster maps.
 # License: GPL (>= 2)
 # NeedsCompilation: yes
-# Packaged: 2017-11-28 13:48:47 UTC; calenge
+# Packaged: 2019-04-07 15:54:40 UTC; calenge
 # Repository: CRAN
-# Date/Publication: 2017-11-28 14:08:53 UTC
+# Date/Publication: 2019-04-07 16:52:50 UTC
